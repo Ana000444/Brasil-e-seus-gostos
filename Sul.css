@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ 
+ body {
+     background-color:rgb(238, 223, 255);
+     color:rgb(68, 37, 37);
+     font-family: "Open Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: weight;
+     font-style: normal;
+     font-variation-settings: "wdth" 100;
+ }
+
+ header {
+     padding: 2.5rem;
+     background-color:rgb(139, 93, 182);
+     text-align: center;
+
+ }
+ 
+ main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+ }
+ 
+ section {
+   display: flex;
+   flex-direction: column ;
+
+
+ }
+ 
+
+h2 {
+ color: rgb(116, 80, 199);
+font-size: 2rem;
+}
+
+p {
+font-variant:small-caps;
+font-weight:100;
+font-size:15px;
+}
+
+details {
+    background-color: rgb(116, 80, 199);
+    border-radius: 2px;
+    padding: 0.2rem;
+}
+
+summary {
+    color: rgb(68, 37, 37);
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.8rem;
+}
+
+ol li{
+    padding: 0.5rem;
+}
+fieldset {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: rgb(68, 37, 37);
+    padding: 0 0.5rem;
+}
+ 
+textarea { 
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid rgb(116, 80, 199);
+}
+
+button {
+background-color: rgb(116, 80, 199);
+border: none;
+padding: 0.6rem;
+color: rgb(68, 37, 37);
+border-radius: 5px;
+cursor: pointer;
+}
+
+a {
+    border-radius: 5px;
+    color:  rgb(139, 93, 182); 
+}
+
+.paragrafo-footer {
+    color: rgb(238, 223, 255);
+     background-color: rgb(68, 37, 37) ; 
+    padding: 1rem;
+    text-align: center;
+}
+
+  footer a{
+    text-decoration: none;
+    color:  rgb(139, 93, 182);
+}
